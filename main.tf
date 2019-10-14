@@ -39,7 +39,7 @@ resource "google_compute_instance" "mern-stack" {
       network_tier = "PREMIUM"
     }
   }
-  metadata_startup_script = "sudo apt-get update; sudo apt-get install git  -y; git clone https://github.com/iamdaaniyaal/gcpterraform.git; cd gcpterraform/mern; sudo chmod 777 mern.sh; sh mern.sh"
+  metadata_startup_script = "sudo apt-get update; sudo apt-get install git  -y; git clone https://github.com/iamdaaniyaal/mern.git; sudo chmod 777 mern.sh; sh mern.sh"
 
  
 }
