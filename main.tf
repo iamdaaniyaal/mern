@@ -10,7 +10,7 @@ provider "google" {
 
 //Reserving MERN Stack IP
 resource "google_compute_address" "mernip" {
-  name   = "${var.mern_stack_instance_ip_name"
+  name   = "${var.mern_stack_instance_ip_name}"
   region = "${var.mern_stack_instance_ip_region}"
 }
 
